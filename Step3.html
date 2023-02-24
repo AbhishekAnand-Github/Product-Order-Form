@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Details</title>
+    <link href="/icons/card.ico" rel="icon">
+</head>
+<body style="background: linear-gradient(to left , #a6c0fe , #f68084);">
+    <form autocomplete="off" enctype="multipart/form-data" method="post">
+        <fieldset style="width: 600px; margin: 0px auto; margin-top: 80px; padding: 20px; background-color: #a6c0fe; border-radius: 30px;">
+        <fieldset style="margin: 0px auto; padding: 20px; background-color: #f68084; border-radius: 20px;">
+            <font size="5" color="#475a85"><b>Step 3: Card Details</b></font><br><br>
+            <fieldset style="width: 400px; margin:0px auto ;  border-color: #f68084; background-color: #a6c0fe; border-radius: 30px; padding: 10px;">
+                <font color="#475a85"><b>Card Type</b></font><br><br>
+                <input style="margin-left: 30px;" type="radio" name="payment" id="visa" required>
+                <label for="visa"><img src="/svg/visa.svg" height="30px" width="30px"></label>  
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input style="margin-left: 30px;" type="radio" name="payment" id="AmEx" required> 
+                <label for="AmEx"><img src="/svg/amex.svg" height="30px" width="30px"></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input style="margin-left: 30px;" type="radio" name="payment" id="mastercard" required>
+                <label for="mastercard"><img src="/svg/mastercard.svg" height="30px" width="30px"></label>
+                
+            </fieldset>
+            <br>
+            <fieldset style="width: 400px; margin:0px auto ;  border-color: #f68084; background-color: #a6c0fe; border-radius: 30px; padding: 10px;">
+                <label style="margin-left: 30px; color: #475a85;" for="cardnumber"><b>Card Number :</b></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input style="width: 200px; border-radius: 20px; border-color: #475a85;" type="text" name="cardnumber" id="cardnumber" placeholder=" Card Number" required> 
+             </fieldset>
+             <br>
+             <fieldset style="width: 400px; margin:0px auto ;  border-color: #f68084; background-color: #a6c0fe; border-radius: 30px; padding: 10px;">
+                <label style="margin-left: 30px; color: #475a85;" for="code"><b>Security Code :</b></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input style="width: 200px; border-radius: 20px; border-color: #475a85;" type="tel" name="code" id="code" placeholder=" Security Code"  maxlength="10" required> 
+             </fieldset>
+             <br>
+             <fieldset style="width: 400px; margin:0px auto ;  border-color: #f68084; background-color: #a6c0fe; border-radius: 30px; padding: 10px;">
+                <label style="margin-left: 30px; color: #475a85;" for="holdername"><b>Card Holder Name :</b></label>
+                &nbsp;
+                <input style="width: 200px; border-radius: 20px; border-color: #475a85;" type="text" name="Card Holder" id="holdername" placeholder=" Card Holder Name"  maxlength="50" required> 
+             </fieldset><br><br>
+             <center>
+                <button style="background-color: #a6c0fe; width: 100px; border-radius: 30px; color: #475a85; border-color: #f68084;; height: 30px; cursor: pointer;" type="button" onclick="location.href='Step2.html'"><b>BACK</b></button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button style="background-color: #a6c0fe; width: 100px; border-radius: 30px; color: #475a85; border-color: #f68084;; height: 30px; cursor: pointer;" type="button" onclick="alert('Your Order Placed')"><b>BUY</b></button>
+            </center>
+            
+        </fieldset>
+    </form>
+</body>
+</html>

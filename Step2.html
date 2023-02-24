@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Address</title>
+    <link href="/icons/delivery.ico" rel="icon">
+</head>
+<body style="background: linear-gradient(to left , #a6c0fe , #f68084);">
+    <form autocomplete="off" enctype="multipart/form-data" method="post">
+        <fieldset style="width: 600px; margin: 0px auto; margin-top: 100px; padding: 20px; background-color: #a6c0fe; border-radius: 30px;">
+        <fieldset style="margin: 0px auto; padding: 20px; background-color: #f68084; border-radius: 20px;">
+            <font size="5" color="#475a85"><b>Step 2: Delivery Address</b></font><br><br>
+            <fieldset style="width: 400px; margin:0px auto ; border-color: #f68084; background-color: #a6c0fe; border-radius: 30px; padding: 10px;">
+               <label style="margin-left: 30px; vertical-align: top; color: #475a85;"><b>Address :</b></label>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <textarea style="width: 200px; border-radius: 20px; border-color: #475a85;" rows="5" name="address" id="useraddress" placeholder=" Your Address" required></textarea> 
+            </fieldset>
+            <br>
+            <fieldset style="width: 400px; margin:0px auto ;  border-color: #f68084; background-color: #a6c0fe; border-radius: 30px; padding: 10px;">
+                <label style="margin-left: 30px; color: #475a85;" for="pincode"><b>Pin Code :</b></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <input style="width: 200px; border-radius: 20px; border-color: #475a85;" type="text" name="pincode" id="pincode" placeholder=" Pin Code" required maxlength="10"> 
+             </fieldset>
+             <br>
+             <fieldset style="width: 400px; margin:0px auto ;  border-color: #f68084; background-color: #a6c0fe; border-radius: 30px; padding: 10px;">
+                <label style="margin-left: 30px; color: #475a85;" for="usercountry"><b>Country :</b></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input style="width: 200px; border-radius: 20px; border-color: #475a85;" type="text" name="country" id="usercountry" placeholder=" Country" required maxlength="50"> 
+             </fieldset>
+             <br><br>
+             <center>
+                <button style="background-color: #a6c0fe; width: 100px; border-radius: 30px; color: #475a85; border-color: #f68084;; height: 30px; cursor: pointer;" type="button" onclick="location.href='Step1.html'"><b>BACK</b></button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button style="background-color: #a6c0fe; width: 100px; border-radius: 30px; color: #475a85; border-color: #f68084;; height: 30px; cursor: pointer;" type="button" onclick="location.href='Step3.html'"><b>NEXT</b></button>
+            </center>
+        </fieldset>
+    </form>
+</body>
+</html>
